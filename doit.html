@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Do-It List</title>
+  <script src="https://kit.fontawesome.com/55174c58a9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="doit.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Rosarivo&display=swap" rel="stylesheet">
+  <script src="doit.js" defer></script>
+</head>
+
+<body>
+  <div class="list-wrap">
+
+    <header>
+      <img src="img/gothic-do-it-list.webp" alt="Gothic steam punk styled couple with fancy wear." width="1019" height="880">
+     
+      <h1>
+        Do-It List
+      </h1>
+    </header>
+
+    <div class="error-message"></div>
+
+    <form id="item-form">
+      <div class="form-control">
+        <input type="text" class="form-input" id="item-input" name="item" placeholder="Let's do this...">
+      </div>
+      <div class="form-control">
+        <button type="submit" class="btn btn-primary">
+          I wow to get it done
+        </button>
+      </div>
+    </form>
+
+    <div class="filter">
+      <input type="text" class="form-input-filter" id="filter" placeholder="Search">
+    </div>
+
+    <ul id="item-list" class="items"></ul>
+      
+    <button id="clear" class="btn-clear">
+      I have forsaken myself, clear the list...
+    </button>
+  </div>
+
+  <footer>
+    <p>🎩 If you like this gothic do-it list, you're welcome to connect with me below. 🔮</p>
+    <a href="https://www.youtube.com/sanjindumisic/" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> YouTube</a> | 
+    <a href="https://github.com/codebatine/" target="_blank" rel="noopener"><i class="fa-brands fa-square-github"></i> GitHub</a> | 
+    <a href="https://www.linkedin.com/in/sanjindumisic/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    <p><a href="https://sanjindumisic.com/" target="_blank" rel="noopener">Sanjin Đumišić</a></p>
+  </footer>
+
+</body>
+
+</html>

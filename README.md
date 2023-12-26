@@ -1,0 +1,1 @@
+# This repo is a practice for creating a list and work with localStorage. The default is a Do-It list in a gothic steampunk style. Feel free to use it.
